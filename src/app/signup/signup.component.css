@@ -1,0 +1,67 @@
+h1{
+    float:inline-start;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+}
+input[type=text],select gender,input[type=date],input[type=number],input[type=password],input[type=email]
+{
+  border:2px solid blue;
+  width:100%;
+  padding:5px 20px;
+  margin:8px 0px;
+  background-color: cornsilk;
+}
+input[type=button]
+{
+  color:white;
+  border:2px solid blue;
+  text-align:center;
+}
+textarea
+{
+  border:2px solid blue;
+  width:70%;
+}
+img{
+    float:right;
+}
+.container
+{
+    background-color:white;
+}
+.jumbotron{
+    background-color: white;
+}
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+  .alert
+  {
+      display: block;
+  }

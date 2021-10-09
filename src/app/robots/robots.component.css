@@ -1,0 +1,16 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.col-xs-2 {
+    padding:auto;
+    margin: auto;
+  }
+  /* Clear floats after image containers */
+  .row{
+    display:inline-flex;
+  }
+  .jumbotron
+  {
+    background-color: pink;
+  }
+  .container{
+    background-color: black;
+  }

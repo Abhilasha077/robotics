@@ -1,0 +1,10 @@
+.card
+{
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: red;
+}
+.card-text
+{
+    color: #e75480;
+}

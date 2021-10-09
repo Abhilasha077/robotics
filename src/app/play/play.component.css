@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    text-decoration:underline;
+    color: brown;
+  }
+  h2{
+    text-align:center;
+    color: blue;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial;
+    margin: 0 auto; /* Center website */
+    max-width: 1300px; /* Max width */
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  
+  .fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  /* Three column layout */
+  .side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+  }
+  
+  .middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+  }
